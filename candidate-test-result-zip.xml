@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<project basedir="." name="candidate-test" default="main">
+	<target name="main">
+		<tstamp/>
+		<mkdir dir="dist"/>
+		<delete file="dist/ifta-candidate-test-result-${DSTAMP}-${user.name}.zip" />
+		<zip destfile="dist/ifta-candidate-test-result-${DSTAMP}-${user.name}.zip">
+			<fileset dir=".">
+				<include name="src/**" />
+			</fileset>
+		</zip>
+	</target>
+</project>
