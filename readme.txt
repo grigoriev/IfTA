@@ -1,3 +1,7 @@
+This was the test task.
+
+Here is the description:
+
 Please create a new package "com.ifta.candidate.test.YOURNAME" and implement
 the interfaces in the package "com.ifta.candidate.test.interfaces" to create 
 a "DataFile" class that can read the binary file "data/test.bin". 
